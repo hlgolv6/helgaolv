@@ -1,0 +1,261 @@
+h1 {
+    text-align: center;
+    padding: 10px 13px;
+}
+
+body {
+	background-image: url(video/pink\ bg.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    border: #3d3134 1px solid;
+    margin-top: 10px;
+}
+
+
+marquee {
+    background-color: #f4f6e9;
+    font-size: 25px;
+}
+
+.DAFTARPELAJARAN {
+    align-items: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.DAFTARPELAJARAN table {
+    align-items: auto;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: #f2c2cb;
+    
+}
+
+.daftar-2{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+#siswa div {
+    width: 240px;
+    height: auto;
+    background-color:#f4f6e9;
+    border: 5px solid #d9849b;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#siswa div {
+    border-bottom: 2px;
+}
+
+.piket {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#jadwal div {
+    width: 200px;
+    height: auto;
+    background-color:#f2cbbd ;
+    border: 5px solid #d9849b;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+/*pengaturan untuk tablet*/
+@media screen and (min-width:721px) and (max-width:1080px){
+    h1 {
+        text-align: center;
+        padding: 10px 13px;
+    }
+    
+    body {
+        background-color: #e8d1c5;
+        background-image: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    
+    marquee {
+        background-color: #Eddcd2;
+        font-size: 25px;
+    }
+    
+    .DAFTARPELAJARAN {
+        width: 100%;
+        align-items: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .DAFTARPELAJARAN table {
+        align-items: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: auto;
+        background-color: #fff1e6;
+        width: 190px;
+    }
+
+    th,tr,td{
+        padding: 10px;
+    }
+    
+    .daftar-2 {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    
+    }
+    
+    #siswa div {
+        width: 225px;
+        height: auto;
+        background-color:#eddcd2;
+        border: 5px solid #fff1e6;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    #siswa div {
+        border-bottom: 2px;
+    }
+    
+    .piket {
+        display: inline-block; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #jadwal div {
+        width: 200px;
+        height: auto;
+        background-color:#eeddd3;
+        border: 5px solid #fff1e6;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*responsif ponsel*/
+
+@media screen and (max-width: 720px)
+{
+    h1 {
+        text-align: center;
+        padding: 10px 13px;
+    }
+
+    body {
+        background-color: #b9c3b4;
+	    background-image: none;
+        background-size: cover;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+
+    marquee {
+        background-color: #97a391;
+        font-size: 25px;
+    }
+
+    .DAFTARPELAJARAN {
+        width: 100%;
+        align-items: auto;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .DAFTARPELAJARAN table {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        background-color: #b9c3b4;
+        width: 95%;
+        height: 300px;   
+    }
+
+    th,tr,td{
+        padding: 0.5px;
+    }
+
+    .daftar-2{
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #siswa div {
+        width: 250px;
+        height: auto;
+        background-color:#838f77;
+        border: 5px solid #687664;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #siswa div {
+        border-bottom: 2px;
+    }
+
+    .piket {
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #jadwal div {
+        width: 250px;
+        height: auto;
+        background-color:#838f77;
+        border: 5px solid #687664;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .foto img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .video video{
+        width: 300px;
+        height: 200px;
+       
+    }
+}
